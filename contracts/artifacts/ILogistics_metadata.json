@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_deliveryId",
+						"type": "uint256"
+					}
+				],
+				"name": "confirmDelivery",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Retailer.sol": "ILogistics"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Retailer.sol": {
+			"keccak256": "0xd6b1cb26556e233f94195561be3d394fab688e5a51bebb6f5e4d402ec62185ce",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://061f4bab2c40efbf05a8f311e1a4c79c47f69d65e4de7cc982717f0ba97d279c",
+				"dweb:/ipfs/QmaKHYtu6YCTiWRtmYSkBcCZdeTNvtBpkShrfyiTGt2RPp"
+			]
+		}
+	},
+	"version": 1
+}
